@@ -25,7 +25,7 @@
 </style>
 </head>
 <body>
-  <section id="header" class="flex justify-between items-center px-12 py-5 bg-[#E3E6F3] shadow-lg shadow-gray-500/60">
+  <section id="header" class="flex justify-between items-center px-12 py-5 bg-[#E3E6F3] shadow-lg shadow-gray-500/60 z-999 sticky top-0 left-0">
   <div>
     <a href="#"><img src="img/logo.png" alt=""></a>
 
@@ -48,8 +48,278 @@
     <h1 class="text-5xl text-amber-300 font-bold pb-4">Super value deals</h1>
     <h2 class="text-5xl text-purple-400 font-bold pb-4">On all products</h2>
     <p class="text-gray-400 pb-4">Save more with coupons & upto 70% off</p>
-    <button class="bg-transparent text-[#088178] border-0 pt-4 pr-16 pb-4 pl-16" style="background-image: url('img/button.png');">Shop Now</button>
+    <button class="bg-transparent text-[#088178] border-0 pt-4 pr-16 pb-4 pl-16 bg-no-repeat cursor-pointer" style="background-image: url('img/button.png');">Shop Now</button>
   </section>
+  <section id="feature" class="p-6 flex justify-stretch items-start gap-2">
+    <div class="flex-1 text-center p-6 shadow-lg border-2 rounded border-gray-400 min-h-52 flex flex-col justify-between">
+      <img class="w-[100%] h-20 object-contain mb-3" src="img/features/f1.png" alt="">
+      <h6 class="inline-block py-2 px-2 rounded text-[#088178] bg-[#fddde4]">Free shipping</h6>
+    </div>
+    <div class="flex-1 text-center p-6 shadow-lg border-2 rounded border-gray-400 min-h-52 flex flex-col justify-between">
+      <img class="w-[100%] mb-3 h-20 object-contain" src="img/features/f2.png" alt="">
+      <h6 class="inline-block py-2 px-2 rounded text-[#088178] bg-[#fddde4]">Online Order</h6>
+    </div>
+    <div class="flex-1 text-center p-6 shadow-lg border-2 rounded border-gray-400 min-h-52 flex flex-col justify-between">
+      <img class="w-[100%] mb-3 h-20 object-contain" src="img/features/f3.png" alt="">
+      <h6 class="inline-block py-2 px-2 rounded text-[#088ef8] bg-[#fddde4]">Save Money</h6>
+    </div>
+    <div class="flex-1 text-center p-6 shadow-lg border-2 rounded border-gray-400 min-h-52 flex flex-col justify-between">
+      <img class="w-[100%] mb-3 h-20 object-contain" src="img/features/f4.png" alt="">
+      <h6 class="inline-block py-2 px-2 rounded text-[#077178] bg-[#fddde4]">Promotion</h6>
+    </div>
+    <div class="flex-1 text-center p-6 shadow-lg border-2 rounded border-gray-400 min-h-52 flex flex-col justify-between">
+      <img class="w-[100%] mb-3 h-20 object-contain" src="img/features/f5.png" alt="">
+      <h6 class="inline-block py-2 px-2 rounded text-[#0f0178] bg-[#fddde4]">Happy sell</h6>
+    </div>
+    <div class="flex-1 text-center p-6 shadow-lg border-2 rounded border-gray-400 min-h-52 flex flex-col justify-between">
+      <img class="w-[100%] mb-3 h-20 object-contain" src="img/features/f6.png" alt="">
+      <h6 class="inline-block py-2 px-2 rounded text-[#0ed178] bg-[#fddde4]">24/7 support</h6>
+    </div>
+  </section>
+  <section class="text-center py-5">
+      <h1 class="text-green-300 text-4xl pb-2">Featured Products</h1>
+    <p class="text-gray-400 text-xl">Summer collection new model design</p>
+   <div id="proContainer" class="grid grid-cols-3 gap-4">
+    <div class="w-[23%] min-w-[250px] py-2 px-3 rounded-lg shadow-xl relative">
+      <img class="w-full rounded-2xl" src="img/products/f2.jpg" alt="">
+      <div class="py-3 text-start">
+         <span class="text-gray-400 text-sm">adidas</span>
+         <h5 class="text-gray-700 text-[1rem] py-3">Cartoon Astronaut shirt</h5>
+         <div class="star text-green-300">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h3 class="text-2xl text-purple-300">$78</h3>
+      </div>
+      <a href=""><i class="fa-solid fa-cart-shopping text-green-300 bottom-4 right-3 absolute h-11 w-10"></i></a>
+    </div>
+    <div class="w-[23%] min-w-[250px] py-2 px-3 rounded-lg shadow-xl relative">
+      <img class="w-full rounded-2xl" src="img/products/f3.jpg" alt="">
+      <div class="py-3 text-start">
+         <span class="text-gray-400 text-sm">adidas</span>
+         <h5 class="text-gray-700 text-[1rem] py-3">Cartoon Astronaut shirt</h5>
+         <div class="star text-green-300">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h3 class="text-2xl text-purple-300">$78</h3>
+      </div>
+      <a href=""><i class="fa-solid fa-cart-shopping text-green-300 bottom-4 right-3 absolute h-11 w-10"></i></a>
+    </div>
+    <div class="w-[23%] min-w-[250px] py-2 px-3 rounded-lg shadow-xl relative">
+      <img class="w-full rounded-2xl" src="img/products/f4.jpg" alt="">
+      <div class="py-3 text-start">
+         <span class="text-gray-400 text-sm">adidas</span>
+         <h5 class="text-gray-700 text-[1rem] py-3">Cartoon Astronaut shirt</h5>
+         <div class="star text-green-300">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h3 class="text-2xl text-purple-300">$78</h3>
+      </div>
+      <a href=""><i class="fa-solid fa-cart-shopping text-green-300 bottom-4 right-3 absolute h-11 w-10"></i></a>
+    </div>
+    <div class="w-[23%] min-w-[250px] py-2 px-3 rounded-lg shadow-xl relative">
+      <img class="w-full rounded-2xl" src="img/products/f5.jpg" alt="">
+      <div class="py-3 text-start">
+         <span class="text-gray-400 text-sm">adidas</span>
+         <h5 class="text-gray-700 text-[1rem] py-3">Cartoon Astronaut shirt</h5>
+         <div class="star text-green-300">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h3 class="text-2xl text-purple-300">$78</h3>
+      </div>
+      <a href=""><i class="fa-solid fa-cart-shopping text-green-300 bottom-4 right-3 absolute h-11 w-10"></i></a>
+    </div>
+    <div class="w-[23%] min-w-[250px] py-2 px-3 rounded-lg shadow-xl relative">
+      <img class="w-full rounded-2xl" src="img/products/f6.jpg" alt="">
+      <div class="py-3 text-start">
+         <span class="text-gray-400 text-sm">adidas</span>
+         <h5 class="text-gray-700 text-[1rem] py-3">Cartoon Astronaut shirt</h5>
+         <div class="star text-green-300">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h3 class="text-2xl text-purple-300">$78</h3>
+      </div>
+      <a href=""><i class="fa-solid fa-cart-shopping text-green-300 bottom-4 right-3 absolute h-11 w-10"></i></a>
+    </div>
+    <div class="w-[23%] min-w-[250px] py-2 px-3 rounded-lg shadow-xl relative">
+      <img class="w-full rounded-2xl" src="img/products/f7.jpg" alt="">
+      <div class="py-3 text-start">
+         <span class="text-gray-400 text-sm">adidas</span>
+         <h5 class="text-gray-700 text-[1rem] py-3">Cartoon Astronaut shirt</h5>
+         <div class="star text-green-300">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h3 class="text-2xl text-purple-300">$78</h3>
+      </div>
+      <a href=""><i class="fa-solid fa-cart-shopping text-green-300 bottom-4 right-3 absolute h-11 w-10"></i></a>
+    </div>
+    <div class="w-[23%] min-w-[250px] py-2 px-3 rounded-lg shadow-xl relative">
+      <img class="w-full rounded-2xl" src="img/products/f8.jpg" alt="">
+      <div class="py-3 text-start">
+         <span class="text-gray-400 text-sm">adidas</span>
+         <h5 class="text-gray-700 text-[1rem] py-3">Cartoon Astronaut shirt</h5>
+         <div class="star text-green-300">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h3 class="text-2xl text-purple-300">$78</h3>
+      </div>
+      <a href=""><i class="fa-solid fa-cart-shopping text-green-300 bottom-4 right-3 absolute h-11 w-10"></i></a>
+    </div>
+    <div class="w-[23%] min-w-[250px] py-2 px-3 rounded-lg shadow-xl relative">
+      <img class="w-full rounded-2xl" src="img/products/n1.jpg" alt="">
+      <div class="py-3 text-start">
+         <span class="text-gray-400 text-sm">adidas</span>
+         <h5 class="text-gray-700 text-[1rem] py-3">Cartoon Astronaut shirt</h5>
+         <div class="star text-green-300">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h3 class="text-2xl text-purple-300">$78</h3>
+      </div>
+      <a href=""><i class="fa-solid fa-cart-shopping text-green-300 bottom-4 right-3 absolute h-11 w-10"></i></a>
+    </div>
+    <div class="w-[23%] min-w-[250px] py-2 px-3 rounded-lg shadow-xl relative">
+      <img class="w-full rounded-2xl" src="img/products/n2.jpg" alt="">
+      <div class="py-3 text-start">
+         <span class="text-gray-400 text-sm">adidas</span>
+         <h5 class="text-gray-700 text-[1rem] py-3">Cartoon Astronaut shirt</h5>
+         <div class="star text-green-300">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h3 class="text-2xl text-purple-300">$78</h3>
+      </div>
+      <a href=""><i class="fa-solid fa-cart-shopping text-green-300 bottom-4 right-3 absolute h-11 w-10"></i></a>
+    </div>
+   </div>
+  </section>
+  <section id="banner" class="my-10 flex flex-col justify-center items-center text-center w-full h-[40vh] bg-cover bg-center text-white rounded-lg px-2 mx-3" style="background-image: url('img/banner/b2.jpg');">
+    <h3>Repair service</h3>
+    <h1 class="text-4xl font-bold">Up to <span class="text-green-400">70% Off</span>-all t-Shirts</h1>
+    <button class="py-4 px-8 cursor-pointer border-0 outline-0 bg-gray-500 text-white rounded hover:bg-pink-300">Explore more</button>
+  </section>
+  <section id="smallBanner" class="flex justify-between">
+    <div class="my-10 flex flex-col justify-center items-start h-[50vh] bg-cover bg-center text-white rounded-lg px-2 mx-3 min-w-[50%]" style="background-image: url('img/banner/b17.jpg');">
+      <span class="text-[12px] font-[500]">crazy deals</span>
+    <h1 class="text-2xl font-bold">buy 1 get 1 free</h1>
+    <span class="text-gray-500 text-sm">The best classic dress for summer</span>
+    <button class="py-4 px-8 cursor-pointer border-0 outline-0 bg-gray-500 text-white rounded hover:bg-pink-300">Learn more</button>
+    </div>
+    <div class="my-10 flex flex-col justify-center items-start h-[50vh] bg-cover bg-center text-white rounded-lg px-2 mx-3 min-w-[50%]" style="background-image: url('img/banner/b10.jpg');">
+      <span class="text-[12px] font-[500]">spring/summer</span>
+    <h1 class="text-2xl font-bold">Newest collection here</h1>
+    <span class="text-gray-500 text-sm">The best classic dress for summer</span>
+    <button class="py-4 px-8 cursor-pointer border-0 outline-0 bg-gray-500 text-white rounded hover:bg-pink-300">collection</button>
+    </div>
+   </section>
+   <section class="flex justify-between items-center gap-1">
+    <div class="mt-4 flex flex-col justify-center items-start h-[30vh] bg-cover bg-center text-white rounded-lg px-5 mb-3 min-w-[30%]" style="background-image: url('img/banner/b7.jpg');">
+    <h1 class="text-2xl font-bold">Seasonal sale</h1>
+    <span class="text-gray-500 text-sm">Winter collection 50% off</span>
+    </div>
+    <div class="mt-4 flex flex-col justify-center items-start h-[30vh] bg-cover bg-center text-white rounded-lg px-5 mb-3 min-w-[30%]" style="background-image: url('img/banner/b18.jpg');">
+    <h1 class="text-2xl font-bold">Seasonal sale</h1>
+    <span class="text-gray-500 text-sm">Winter collection 50% off</span>
+    </div>
+    <div class="mt-4 flex flex-col justify-center items-start h-[30vh] bg-cover bg-center text-white rounded-lg px-5 mb-3 min-w-[30%]" style="background-image: url('img/banner/b4.jpg');">
+    <h1 class="text-2xl font-bold">Seasonal sale</h1>
+    <span class="text-gray-500 text-sm">Winter collection 50% off</span>
+    </div>
+    
+   </section>
+   <section id="newsTeller" class="flex justify-between items-center px-3 bg-cover bg-center bg-[#841e42] bg-no-repeat h-[30vh]" style="background-image: url('img/banner/b14.png');">
+    <div class="newsT">
+      <h3 class="text-3xl text-emerald-200">Sign up newsletter</h3>
+      <p class="text-gray-400">E-mail updates about our newsletter and <span class="text-green-300">special offers</span></p>
+    </div>
+    <div class="form flex w-[40%]">
+      <input class="border-0 bg-slate-600 text-white rounded p-1" type="text" placeholder="your e-mail">
+      <button class="text-white bg-purple-400 rounded border-o shadow-sm p-1">Signup</button>
+    </div>
+   </section>
+   <footer class="flex justify-between items-center gap-2 px-2 mt-3">
+      <div class="col">
+        <img class="mb-8" src="img/logo.png" alt="">
+        <h3 class="text-sm">Contact</h3>
+        <p class="text-gray-400"><strong>Address:</strong> Dinajpur,Rangpur,Bangladesh</p>
+        <p class="text-gray-400"><strong>phone:</strong>  019222697087</p>
+        <p class="text-gray-400"><strong>Hours:</strong> 10.00-18.00 sat mon</p>
+        <div class="follow">
+          <h4 class="text-sm text-pink-400">Follow us</h4>
+          <div class="icon text-green-500">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+
+          </div>
+        </div>
+      </div>
+      <div class="col flex flex-col">
+        <h4 class="text-sm ">About</h4>
+        <a class="text-gray-400" href="#">About us</a>
+        <a class="text-gray-400" href="#"> Delivery information</a>
+        <a class="text-gray-400" href="#">Privacy policy</a>
+        <a class="text-gray-400" href="#">term and condition</a>
+        <a class="text-gray-400" href="#">contact us</a>
+      </div>
+      <div class="col flex flex-col">
+        <h4>My account</h4>
+        <a class="text-gray-400" href="#">sign in</a>
+        <a class="text-gray-400" href="#">view cart</a>
+        <a class="text-gray-400" href="#">my wishlist</a>
+        <a class="text-gray-400" href="#">Tract my Order</a>
+        <a class="text-gray-400" href="#">help us</a>
+      </div>
+      <div class="flex flex-col">
+        <h3>install app</h3>
+        <p>From app store or google play store</p>
+        <div class="flex justify-between items-center">
+          <img src="img/pay/app.jpg" alt="">
+          <img src="img/pay/play.jpg" alt="">
+        </div>
+         <p class="text-gray-400 mb-2">From app store or google play store</p>
+         <img src="img/pay/pay.png" alt="">
+
+      </div>
+      
+   </footer>
+   <div class="text-center mb-5">
+       <p class="text-gray-500">2025 eli.com Html Css Learning</p>
+      </div>
   <script src="index.js"></script>
 </body>
 </html>
